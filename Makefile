@@ -92,7 +92,8 @@ erc721_files:=balanceOf-success-spec.k \
 			  ownerOf-failure-spec.k \
 			  getApproved-success-spec.k \
 			  getApproved-failure-spec.k \
-			  isApprovedForAll-spec.k
+			  isApprovedForAll-spec.k \
+			  mint-failure-1-spec.k
 
 
 erc721: $(patsubst %, $(specs_dir)/erc721/%, $(erc721_files)) $(specs_dir)/lemmas.k
